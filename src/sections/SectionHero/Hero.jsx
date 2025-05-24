@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import heroImg from '../../assets/perfil-nelson-ia.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import instagramLight from '../../assets/instagram-light.svg';
@@ -55,7 +55,7 @@ function Hero() {
             Movido pela paixão em construir experiências digitais de ponta
         </p>
         <a href={CV} download>
-            <button className={styles.hover}>
+            <button className="hover">
                 Currículo
             </button>
         </a>

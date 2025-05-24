@@ -1,10 +1,12 @@
 import './App.css';
-import Hero from './sections/Hero/Hero';
+import Hero from './sections/SectionHero/Hero.jsx';
+import Projects from './sections/SectionProjects/Projects.jsx';
 
 function App() {
   return (
     <>
-    <Hero/>
+    <Hero />
+    <Projects />
     </>
   )
 }
