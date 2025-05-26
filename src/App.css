@@ -73,3 +73,13 @@ p {
 .hover {
   cursor: pointer;
 }
+
+.card {
+  padding: 5px;
+  width: 350px;
+}
+
+.descriptionCard {
+  margin: 10px auto 0;
+  max-width: 250px;
+}
