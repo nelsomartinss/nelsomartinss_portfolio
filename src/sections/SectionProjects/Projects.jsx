@@ -1,4 +1,4 @@
-import styles from './Projects.styles.module.css';
+import styles from './ProjectsStyles.module.css';
 import linktree from '../../assets/linktree-soma-studio.png';
 import todolistApp from '../../assets/todo-list-app.png';
 import ProjectCard from '../../common/ProjectCard';
