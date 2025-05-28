@@ -8,7 +8,6 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
-import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/theme-context-and-hook.jsx';
 
 function Hero() {
@@ -42,13 +41,13 @@ function Hero() {
         <h2>Desenvolvedor Front-end</h2>
         <span>
           <a href="https://instagram.com/nelsomartinss" target='_blank'>
-                <img src={instagramIcon} alt="Ícone do GitHub" />
+                <img src={instagramIcon} alt="Ícone do GitHub" className={styles.imgIcon}/>
             </a>
             <a href="https://github.com/nelsomartinss" target='_blank'>
-                <img src={githubIcon} alt="Ícone do GitHub" />
+                <img src={githubIcon} alt="Ícone do GitHub" className={styles.imgIcon}/>
             </a>
              <a href="https://linkedin.com/in/nelsomartinss" target='_blank'>
-                <img src={linkedinIcon} alt="Ícone do Linkedin" />
+                <img src={linkedinIcon} alt="Ícone do Linkedin" className={styles.imgIcon}/>
             </a>
         </span>
         <p className={styles.description}>

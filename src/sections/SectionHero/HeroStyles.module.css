@@ -5,7 +5,7 @@
   gap: 20px;
   text-align: center;
   height: 100dvh;
-  min-height: 500px;
+  min-height: 300px;
 
   .hero {
     max-width: 200px;
@@ -22,7 +22,6 @@
   }
 
   img {
-      width: 30px;
       border-radius: 50%;
   }
 
@@ -54,6 +53,10 @@
   }
 }
 
+.imgIcon {
+  width: 30px;
+}
+
 .colorModeContainer {
   position: relative;
 }
@@ -70,6 +73,7 @@
 
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 
 .info {
@@ -83,11 +87,10 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
-    gap: 60px;
 
     .hero {
-      max-width: 330px;
-      width: 330px;
+      max-width: 350px;
+      width: 350px;
     }
   }
 }
@@ -95,8 +98,8 @@
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 380px;
-      width: 380px;
+      max-width: 400px;
+      width: 400px;
     }
   }
 }
