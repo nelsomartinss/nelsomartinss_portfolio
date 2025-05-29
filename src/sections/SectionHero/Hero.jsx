@@ -2,6 +2,8 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/perfil-nelson-ia.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
+import whatsappLight from '../../assets/whatsapp-light.svg';
+import whatsappDark from '../../assets/whatsapp-dark.svg';
 import instagramLight from '../../assets/instagram-light.svg';
 import instagramDark from '../../assets/instagram-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -16,6 +18,7 @@ function Hero() {
   const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const whatsappIcon = theme === 'light' ? whatsappLight : whatsappDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -40,6 +43,9 @@ function Hero() {
         </h1>
         <h2>Desenvolvedor Front-end</h2>
         <span>
+          <a href="https://api.whatsapp.com/send/?phone=83996442273&text&type=phone_number&app_absent=0" target='_blank'>
+                <img src={whatsappIcon} alt="Ícone do Linkedin" className={styles.imgIcon}/>
+          </a>
           <a href="https://instagram.com/nelsomartinss" target='_blank'>
                 <img src={instagramIcon} alt="Ícone do GitHub" className={styles.imgIcon}/>
             </a>
