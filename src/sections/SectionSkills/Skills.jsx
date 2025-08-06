@@ -19,13 +19,9 @@ function Skills() {
       <SkillList src={checkMarkIcon} skill='ReactJs'/>
       <SkillList src={checkMarkIcon} skill='NextJs'/>
       <SkillList src={checkMarkIcon} skill='Bootstrap'/>
-      <SkillList src={checkMarkIcon} skill='TailwindCSS'/>
     </div>
     <hr />
     <div className={styles.skillList}>
-      <SkillList src={checkMarkIcon} skill='Webpack'/>
-      <SkillList src={checkMarkIcon} skill='Babel'/>
-      <SkillList src={checkMarkIcon} skill='Redux'/>
       <SkillList src={checkMarkIcon} skill='Jest'/>
       <SkillList src={checkMarkIcon} skill='Git'/>
     </div>

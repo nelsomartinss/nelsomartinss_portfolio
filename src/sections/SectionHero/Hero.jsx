@@ -59,7 +59,7 @@ function Hero() {
         <p className={styles.description}>
             Movido pela paixão em construir experiências digitais de ponta
         </p>
-        <a href="https://docs.google.com/document/d/1bVXG3OvLW2yra0iVmJ7n1VeDTLEPqe0QjJt2YtwNCpk/edit?tab=t.0" target='_blank'>
+        <a href="https://docs.google.com/document/d/1BvbbaeXrc7-rScfzMKtD69Kz8aS1dbJcQfaOGbyhbxY/edit?usp=sharing" target='_blank'>
             <button className="hover">
                 Currículo
             </button>
